@@ -93,3 +93,17 @@ let fruitsArr = ["apple", "orange", "mango"];
 console.log(fruitsArr); // [ 'apple', 'orange', 'mango' ]
 
 console.log(typeof fruitsArr);
+
+
+// Static vs Dynamic Type Checking
+
+// Java
+
+// String name5 = "Tech Monk";
+
+// JavaScript
+let name6 = "Tech Monk";
+
+
+// Strong vs Weak Typed
+console.log("123" - 2);
