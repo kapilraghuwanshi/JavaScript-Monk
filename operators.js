@@ -86,7 +86,8 @@ console.log(typeof true.toString()); // "true"
 
 // Auto Type Conversion - Implicit
 
-console.log(55 + 4 + "tech"); // 59tech - JS will treat + as concatination
+console.log(55 + 4 + "tech"); // 59tech 
+//JS will treat + as concatination whenever it sees string as an operand
 
 console.log(55 + "tech" + 4); // 55tech4
 
