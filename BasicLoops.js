@@ -18,6 +18,7 @@ do {
     console.log(num1 * 2); 
     num1++; // increment 
 } while(num1 > 10) // condition check
+// change to < here if you want table of 2
 
 // only 2 prints 
 
@@ -74,7 +75,7 @@ for(let i = 1; i <= 5; i++){
 
 // continue stmt
 // no effect on outer loop
-
+console.log("continue in loop");
 for(let i = 1; i <= 5; i++){
     for(let j = 1; j <= 5; j++){
         if(j % 2 !== 0){ // j is odd = even case should run
